@@ -1,0 +1,55 @@
+li{
+    background-color: rgb(240, 239, 239);
+    padding: 10px;
+    border-radius: 3px;
+    margin-bottom: 5px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.151);
+}
+.taskInfo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 4px;
+}
+ul{
+    list-style-type: none;
+    padding: 0;
+}
+.deleteBtn{
+    background-color: rgb(180, 3, 3);
+    border-radius: 5px;
+    color: white;
+    border: none;
+    font-size: x-small;
+    padding: 1px 5px;
+    cursor: pointer;
+}
+.toggleBtn{
+    background-color: green;
+    border-radius: 5px;
+    color: white;
+    border: none;
+    font-size: x-small;
+    padding: 1px 5px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.timeSpan{
+    font-weight: 400;
+    font-size: 0.8rem;
+    color: rgb(0, 0, 0);
+}
+.taskText{
+    display: flex;
+    padding: 0 10px;
+    margin-bottom: 5px; ;
+    background-color: rgb(255, 255, 255);
+    border-radius: 4px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+}
+.taskSummary{
+    display: flex;
+    justify-content: space-between;
+}
